@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Screen</title>
+    <link rel="stylesheet" href="../../src/default.css">
+    <link rel="stylesheet" href="weather-custom.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="weather" class="full grid box bw-100 bh-100 color-bar">
+            <div class="box bw-100 bh-15"></div>
+
+            <div class="box bw-100 bh-50 current"><strong>Currently</strong>
+                <span class="temps">75&deg;</span>
+                <span class="text">Partly Cloudy</span>
+            </div>
+
+            <div class="box bw-15 bh-30"></div>
+            <div class="box bw-70 bh-30 grid forecast">
+                <div class="day box bw-35">
+                    <img class="icon" src="http://codedon.net/weather/icon.php?name=weather_sun&color=FFFFFF">
+                    <span class="temps">80&deg;/70&deg;</span>
+                    <strong class="day-name">Sunday</strong>
+                </div>
+                <div class="day box bw-30">
+                    <img class="icon" src="http://codedon.net/weather/icon.php?name=weather_sun&color=FFFFFF">
+                    <span class="temps">80&deg;/70&deg;</span>
+                    <strong class="day-name">Monday</strong>
+                </div>
+                <div class="day box bw-35">
+                    <img class="icon" src="http://codedon.net/weather/icon.php?name=weather_sun&color=FFFFFF">
+                    <span class="temps">80&deg;/70&deg;</span>
+                    <strong class="day-name">Tuesday</strong>
+                </div>
+            </div>
+            <div class="box bw-15 bh-30"></div>
+
+            <div class="box bw-100 bh-15"></div>
+        </div>
+    </div>
+</body>
+</html>

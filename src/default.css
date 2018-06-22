@@ -1,0 +1,62 @@
+html, body {
+    margin:0;
+    padding:0;
+    color:#EEE;
+    width:100%;
+    height:100%;
+    background:#222; }
+body {
+    cursor:none;
+    overflow:hidden;
+    position:relative; }
+
+/* LAYOUT CSS */
+.grid {
+    width:100%;
+    height:100%;
+    display:grid;
+    grid-template-rows:repeat(20, 1fr);
+    grid-template-columns:repeat(20, 1fr); }
+    .box {
+        position:relative;
+        box-sizing:border-box; }
+    .bw-5 { grid-column:auto / span 1; }
+    .bw-10 { grid-column:auto / span 2; }
+    .bw-15 { grid-column:auto / span 3; }
+    .bw-20 { grid-column:auto / span 4; }
+    .bw-25 { grid-column:auto / span 5; }
+    .bw-30 { grid-column:auto / span 6; }
+    .bw-35 { grid-column:auto / span 7; }
+    .bw-40 { grid-column:auto / span 8; }
+    .bw-45 { grid-column:auto / span 9; }
+    .bw-50 { grid-column:auto / span 10; }
+    .bw-55 { grid-column:auto / span 11; }
+    .bw-60 { grid-column:auto / span 12; }
+    .bw-65 { grid-column:auto / span 13; }
+    .bw-70 { grid-column:auto / span 14; }
+    .bw-75 { grid-column:auto / span 15; }
+    .bw-80 { grid-column:auto / span 16; }
+    .bw-85 { grid-column:auto / span 17; }
+    .bw-90 { grid-column:auto / span 18; }
+    .bw-95 { grid-column:auto / span 19; }
+    .bw-100 { grid-column:auto / span 20; }
+    .bh-5 { grid-row:auto / span 1; }
+    .bh-10 { grid-row:auto / span 2; }
+    .bh-15 { grid-row:auto / span 3; }
+    .bh-20 { grid-row:auto / span 4; }
+    .bh-25 { grid-row:auto / span 5; }
+    .bh-30 { grid-row:auto / span 6; }
+    .bh-35 { grid-row:auto / span 7; }
+    .bh-40 { grid-row:auto / span 8; }
+    .bh-45 { grid-row:auto / span 9; }
+    .bh-50 { grid-row:auto / span 10; }
+    .bh-55 { grid-row:auto / span 11; }
+    .bh-60 { grid-row:auto / span 12; }
+    .bh-65 { grid-row:auto / span 13; }
+    .bh-70 { grid-row:auto / span 14; }
+    .bh-75 { grid-row:auto / span 15; }
+    .bh-80 { grid-row:auto / span 16; }
+    .bh-85 { grid-row:auto / span 17; }
+    .bh-90 { grid-row:auto / span 18; }
+    .bh-95 { grid-row:auto / span 19; }
+    .bh-100 { grid-row:auto / span 20; }
